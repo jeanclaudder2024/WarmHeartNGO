@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "Warm Heart",
+    "slogan": "Spreading warmth through compassion"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "blogs": "Blogs",
+    "contact": "Contact Us"
+  },
+  "language": {
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "home": {
+    "welcome": "Welcome to Warm Heart",
+    "intro": "Dedicated to creating a better world through compassion and community service.",
+    "mission": "Our mission is to provide help and hope to those in need, promoting a world of kindness and support.",
+    "gallery": "Our Impact Gallery",
+    "survey": "Take Our Survey",
+    "surveyPrompt": "Help us understand how we can better serve our community"
+  },
+  "about": {
+    "title": "About Warm Heart",
+    "subtitle": "Our story of compassion and service",
+    "mission": "Our Mission",
+    "missionText": "Warm Heart is dedicated to creating positive change in communities through compassionate action and service. We believe in the power of kindness to transform lives and build stronger communities.",
+    "vision": "Our Vision",
+    "visionText": "We envision a world where everyone has access to basic needs, education, and opportunities to thrive regardless of their circumstances.",
+    "values": "Our Values",
+    "valuesList": {
+      "compassion": "Compassion",
+      "compassionText": "We act with kindness and empathy in all our endeavors.",
+      "integrity": "Integrity",
+      "integrityText": "We maintain honesty and transparency in everything we do.",
+      "inclusion": "Inclusion",
+      "inclusionText": "We welcome and respect diversity in all its forms.",
+      "commitment": "Commitment",
+      "commitmentText": "We are dedicated to making lasting, positive change."
+    },
+    "history": "Our History",
+    "historyText": "Disaster Relief & Community Development team since 1982 now operating under this mission-related name. Based and mostly functional in Lebanon but we also reach out globally wherever whenever!"
+  },
+  "blogs": {
+    "title": "Latest News and Stories",
+    "readMore": "Read More",
+    "backToList": "Back to Blogs"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully!",
+      "error": "There was an error sending your message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "123 Compassion Street, Kindness City",
+      "phone": "+961 71 885 969",
+      "email": "warmheartlb@gmail.com",
+      "hours": "Monday - Friday: 9am - 5pm"
+    }
+  }
+}
