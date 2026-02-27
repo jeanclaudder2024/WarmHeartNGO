@@ -19,6 +19,8 @@ import NotFound from "./pages/NotFound";
 import LoginForm from "./pages/Login";
 import DamageAssessmentForm from "./pages/DamageAssessmentForm";
 import Dashboard from "./pages/Dashboard";
+import ProtectedRoute from "./components/ProtectedRoute";
+
 // Theme
 import { getTheme } from "./theme";
 
@@ -60,7 +62,14 @@ function App() {
             <Route path="/survey" element={<DamageAssessmentForm />} />
             <Route path="/login" element={<LoginForm />} />
             <Route path="/loginform" element={<LoginForm />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route
+              path="/dashboard"
+              element={
+                <ProtectedRoute>
+                  <Dashboard />
+                </ProtectedRoute>
+              }
+            />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
